@@ -1,0 +1,1846 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-size:12px;
+    font-family: 'Open Sans', sans-serif;
+    background: #162c65;
+    box-sizing: border-box;
+
+}
+
+
+.row{
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.container-fluid{
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+* {
+    box-sizing:border-box;
+}
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+#main-wrapper {
+    width:100%;
+    /* margin: 0 auto; */
+    /* height: 100vh; */
+    overflow: hidden;
+}
+
+/* header code */
+header{
+    background-image:url("../img/shapes/headerbg.png");
+    background-position: center;
+    background-size:cover;
+    width:100%;
+    max-height:100px!important; 
+}
+
+
+
+#titlebar {
+    width: 100%;
+    height: 52px;
+    background-image: url("../img/shapes/titlebarbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    z-index: 9999;
+}
+
+#titlebar .navbar-brand{
+    background-image: url("../img/shapes/logobg.png");
+    background-size: cover
+}
+#titlebar .titlebg{
+ text-align: center;
+  background-image: url('../img/shapes/ASCSbg.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+a.navbar-brand img {
+    height: 45px;
+    padding: 0px 20px;
+}
+
+h3.titletext {
+    padding: 20px 0px;
+    font-size:2em;
+    font-weight: 700;
+}
+
+a.logoutbtn {
+    margin: 20px 10px;
+    border-radius: 23px;
+}
+
+
+#titlebar .navbar-brand {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.center-title {
+    position: relative;
+    bottom: 45px;
+    font-size:2.5em;
+    font-weight: bold;
+    color: #070606;
+
+
+}
+.bg-light{
+    background-image: url("/img/shapes/headerbg.png");
+    /* background-color: #5f5e5e!important; */
+
+}
+.navbar .bg-light {
+ 
+    box-shadow: inset 2.121px 2.121px 7px 0px rgba(0, 0, 0, 0.5) !important;
+    height: 62px !important;
+    opacity: 0.7;
+}
+
+.navbar-nav li.nav-item{
+    margin: 0px 20px;
+}
+
+.addasonemenu .navbar-nav a {
+    font-size: 1.2em;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+    
+    /* text-shadow: 1px 1px #535353; */
+}
+
+.addasonemenu .navbar-nav .active a {
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* General CSS class */
+
+
+
+
+/* Environment Setting Page */
+#tab-container {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(22, 44, 101, 0.2);
+    background-image: linear-gradient(to rgba(19, 53, 133, 1.0), rgba(22, 23, 236, 1.0));
+    background-image: -moz-linear-gradient(to rgba(19, 53, 133, 1.0), rgba(22, 23, 236, 1.0));
+    background-image: -o-linear-gradient(to rgba(19, 53, 133, 1.0), rgba(22, 23, 236, 1.0));
+    background-image: -webkit-gradient(to rgba(19, 53, 133, 1.0), rgba(22, 23, 236, 1.0));
+    background-image: -webkit-linear-gradient(to rgba(19, 53, 133, 1.0), rgba(22, 23, 236, 1.0));
+
+}
+
+/* tabs styles */
+.btn i{
+    margin: 10px;
+    font-size: 0.6rem;
+}
+
+#myClassicTabShadow {
+    width:68%;
+    padding: 5px 10px;
+    background: #162c65;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+#myClassicTabShadow .nav-item a {
+    color: #fff;
+    font-size:1em;
+}
+#myClassicTabShadow .nav-item a.active{
+    color:#00ffff;
+}
+.vline{
+    position: relative;
+    top:10px;
+    border-left: 2px solid #ffffff;
+    height: 15px;
+    z-index: 1;
+    
+} 
+
+
+#myClassicTabContentShadow {
+    background: transparent !important;
+    color: #fff;
+    box-shadow: none;
+    padding: 10px;
+    height: 90vh;
+}
+
+
+
+/* signInform */
+
+#formContainer {
+    width: 100%;
+    margin: auto;
+    max-width: 510px;
+    min-height: auto;
+    position: relative;
+    top: 100px;
+    padding: 40px 20px;
+    background: #ffffff;
+    border-radius: 23px;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+}
+
+#formContainer .form-group {
+    margin: 20px 0px;
+}
+
+#formContainer .form-control {
+    padding: 25px;
+    border-radius: 23px;
+    background: transparent;
+
+}
+
+.form-control{
+    font-size: 1em!important;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+    border-color: rgba(86, 171, 251, 0.8);
+    box-shadow: 0 1px 1px rgba(86, 171, 251, 0.8) inset, 0 0 8px rgba(86, 171, 251, 0.8);
+    outline: 0 none;
+}
+
+
+.form-control:disabled, .form-control[readonly]
+{
+    background: #0f5291;
+}
+/* button styles */
+
+.btn-primary {
+    background-image: -moz-linear-gradient(to top, #1b82ca 0%, #0f5291 21%, #0e95fd 100%);
+    background-image: -webkit-linear-gradient(to top, #1b82ca 0%, #0f5291 21%, #0e95fd 100%);
+    background-image: -ms-linear-gradient(to top, #1b82ca 0%, #0f5291 21%, #0e95fd 100%);
+ }
+
+.btn-danger {
+    background-image: -moz-linear-gradient(-90deg, rgb(255, 36, 77) 0%, rgb(205, 0, 58) 17%, rgb(255, 89, 76) 100%);
+    background-image: -webkit-linear-gradient(-90deg, rgb(255, 36, 77) 0%, rgb(205, 0, 58) 17%, rgb(255, 89, 76) 100%);
+    background-image: -ms-linear-gradient(-90deg, rgb(255, 36, 77) 0%, rgb(205, 0, 58) 17%, rgb(255, 89, 76) 100%);
+
+}
+
+.btn-rounded{
+    border-radius: 23px!important;
+    background: #0f5291!important;
+    border: 0px #0f5291!important; 
+}
+
+
+.btn {
+    padding: 8px 30px !important;
+    border-radius: 3px;
+}
+.btn:focus,.btn:hover{
+    color:#eee;
+}
+
+.buttonlist {
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    list-style-type: none;
+}
+
+.buttonlist button i{
+    margin:0px 10px;
+}
+
+.btnposition{
+    position: absolute;
+    /* left:11%; */
+    border-radius: 25px;
+    background-image: linear-gradient(to top, #1b82ca 0%, #0f5291 21%, #0e95fd 100%);
+}
+
+.btn-corner{
+    border-radius:25px;
+    background:rgba(0, 0, 0, 0.3);
+}
+/* form element */
+#EnvironmentSetForm {
+    width: 98%;
+    height: auto;
+    margin: 60px 0px;
+    font-size:1em;
+
+    
+}
+#MAutform{
+    width: 98%;
+    height: 275px;
+    margin: 20px 0px;
+    font-size: 1em;
+    top: 56px;
+    position: relative;
+}
+#recongnisationForm{
+    width: 98%;
+    height: auto;
+    margin: 20px 0px;
+    font-size: 1em;
+}
+
+#transportationentryarea{
+    width: 98%;
+    height: auto;
+    margin: 20px 0px;
+    font-size: 1em;
+}
+
+#EnvironmentSetForm .form-group .form-control,#MAutform .form-group .form-control, #recongnisationForm .form-group .form-control, #transportationentryarea .form-group .form-control,#ModalForm  .form-group .form-control,#pathForm  .form-group .form-control,#historyForm  .form-group .form-control,.conainer1 .form-group .form-control,.conainer2 .form-group .form-control,.container3 .form-group .form-control, .container4 .form-group .form-control, .container5 .form-group .form-control {
+    background: rgba(229, 179, 135, 0);
+    /* background: url('/img/shapes/Rounded_Rectangle_3_copy_7.png') no-repeat; */
+    /* background-position: center center; */
+    /* background-size: cover; */
+    box-shadow: inset 2.121px 2.121px 7px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 23px;
+    text-align: center;
+    color: #fff !important;
+    padding: 10px;
+    border: none;
+}
+
+
+
+/* table-container */
+#table-container {
+    position: absolute;
+    bottom: 7% !important;
+    width: 100%;
+    height: 55%;
+    padding: 10px 0px;
+    background-image: linear-gradient(rgba(199, 195, 195, 0.2)1%, rgba(29, 55, 119, 1) 100%);
+    overflow-y: scroll;
+
+}
+
+#scrollabletable {
+    position: absolute;
+    bottom: 7% !important;
+    width: 100%;
+    height: 55%;
+    padding: 10px 0px;
+    background-image: linear-gradient(rgba(199, 195, 195, 0.2)1%, rgba(29, 55, 119, 1) 100%);
+    overflow-y: scroll;
+
+}
+
+
+
+
+.table {
+    color: #fff;
+   overflow-y: scroll;
+}
+.innertable{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.table thead tr {
+    padding: 0px !important;
+    margin: 0px;
+}
+
+.table thead tr th {
+    border-bottom: 0.5px solid #5d5d5d;
+    padding-top: 10px !important;
+    padding-bottom:10px !important;
+}
+
+.table tr td{
+    text-align: center!important;
+}
+table.table td,
+table.table th {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+
+}
+
+.table tbody tr td, .table tbody tr th{
+border:0px solid black; 
+border-bottom:1px solid #8f8d8d;
+
+}
+
+
+
+.table thead {
+    background: rgba(22, 44, 101, 1);
+    width:100%;
+}
+
+
+/* scrollbar */
+
+
+.style-6::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: rgba(22, 44, 101,0.1);
+}
+
+.style-6::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(22, 44, 101,0.3);
+}
+
+.style-6::-webkit-scrollbar-thumb {
+    background-color: rgba(31, 2, 110,0.4);
+    background-image: -webkit-linear-gradient(45deg,
+        rgba(160, 169, 255, 0.404) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 255, 255, 0.404) 50%,
+        rgba(255, 255, 255, 0.404) 75%,
+        transparent 75%,
+        transparent)
+}
+
+/* modal popup */
+.modal-dialog{
+    position: relative;
+    top:30%;
+    
+}
+
+.modalbg{
+    background:rgba(29, 55, 119, 1);
+
+}
+
+
+#ModalForm .form-group label{
+    font-size: 10px;
+    color:#fff;
+}
+
+.info-container .btn-corner{
+    border-radius: 25px;
+    width:100%;
+    background-image: -moz-linear-gradient(to top, #1b82ca 0%, #0f5291 21%, #0e95fd 100%);
+    background-image: -webkit-linear-gradient(to top, #1b82ca 0%, #0f5291 21%, #0e95fd 100%);
+    background-image: -ms-linear-gradient(to top, #1b82ca 0%, #0f5291 21%, #0e95fd 100%);
+}
+
+/* map */
+.modal-body{
+    width:100%;
+}
+.google-screen{
+    margin:0px;
+    width:180px;
+    height:230px;
+    position: relative;
+    bottom:10px;
+
+}
+.modalbutton{
+    display: flex;
+    width: 100%;
+    list-style: none;
+}
+.modalbutton .flat-primary,.modalbutton .flat-danger{
+   margin:10px 10px;
+   padding:10px 30px!important;
+   border-radius: 5px; 
+
+}
+.modal-dialog.modal-notify .modal-body{
+    padding:1em!important; 
+}
+
+
+
+
+/* signal reconginsation */
+
+.sensorIndictor{
+    position: absolute;
+    right:0px;
+    width:75%;
+    height: 50px;
+    margin-top:-8px;
+    border:3px solid #2c84f1;
+    border-radius:10px;
+}
+
+.sensormessage{
+    margin: 0px 30px;
+}
+
+
+.screenshow{
+    position: relative;
+    bottom:30px;
+    padding: 5px;
+    background: rgba(199, 195, 195,1);
+    color:#000;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* text General Classes */
+
+.text-info{
+    color: #2c84f1;
+}
+
+
+
+
+
+
+
+/* StatusPage */
+#statusTab{
+    background:#162c65;
+    width:35%;
+    color:#fff;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    left:14%;
+    z-index: 9999!important;
+
+}
+
+.startBtn{
+    font-weight: bold;
+    margin: 10px;
+    padding:10px 45px!important;
+}
+
+.endBtn{
+    font-weight: bold;
+    margin: 10px;
+    padding:10px 45px!important;
+}
+
+.vcar{
+    margin-left: 3%;
+}
+
+.vehicleInfo{
+    z-index: 1;
+    position: fixed;
+    width:35%;
+    background: rgba(22, 44, 101,0.8);
+    padding:5px 20px;
+}
+
+#myClassicTabContentShadow1{
+    background: transparent !important;
+    color: #fff;
+    box-shadow: none;
+    padding: 10px;
+    height:55vh;
+    z-index:0;
+}
+
+#statusTab .nav-item a{
+    color:#fff;
+}
+
+.liveStatus-container{
+    width:100%;
+    height: 100%;
+}
+
+
+.statusContainer{
+    position: relative;
+    bottom:50px;
+    padding:5px 12px;
+    height:70vh;
+    overflow-y: scroll;
+    /* overflow: hidden; */
+ 
+}
+.no-grid{
+    padding-left:4px;
+    padding-right:4px;
+    margin:5px 0px;
+}
+
+.no-grid video {
+    width: 100%;
+    height:200px;
+  }
+
+.streamIndicator{
+ position: absolute;
+ top:0px;
+ width:100%;
+ /* height: 50px; */
+ background-color: #36456f;
+ opacity: 0.8;
+ color:white;
+ padding: 10px;
+ z-index: 9999;
+ text-align: center;
+  }
+
+  .streamIndicator i.left{
+      float:left;
+      color:#fff;
+  }
+
+  .streamIndicator i.right{
+    float: right;
+    display: none
+}
+
+.status-form{
+width: 110px;
+height: 25px;
+text-align: center;
+color:#fff;
+border-radius: 13px;
+background-color:#162c65;
+border:1px solid #162c65;
+margin: 5px ;
+}
+
+.problemIndication{
+    position: absolute;
+    top:0px;
+    width:100%;
+    /* height: 50px; */
+    background-color: red;
+    opacity: 0.3;
+    color:red!important;
+    padding: 10px;
+    z-index: 9999;
+    text-align: center;
+     }
+
+
+
+ .vehicleInfo .scrollabletable{
+    height: 300px!important;
+    width: 97%!important;
+    overflow-y: scroll!important;
+    border:2px solid #18306b;
+}   
+
+.vehicleInfo .selectedVehicelinfo{
+    padding: 20px 0px;
+}
+.inputbox{
+    width:90px;
+    height: 25px;
+    background: #5d5d5d;
+    border-radius: 23px;
+    margin: 10px 0px 0px 0px;
+    padding: 5px;
+}
+.inputbox .cir{
+    width:20px;
+    height:20px;
+    background-color: #3ef04f;
+    z-index:9999;
+    border-radius: 50%;
+
+}
+
+.inputbox .info{
+    position: relative;
+    bottom:25px;
+    left:25px;
+    color:#fff;
+}
+
+
+.status-form:focus{
+    color:#fff;
+}
+
+.carPar{
+    list-style: none;
+    color:#fff;
+    margin: 15px 0px;
+}
+.carPar li{
+    margin: 7px 0px;
+}
+.inputboxcontainer input{
+    margin: 5px 0px;
+}
+
+  .embed-responsive{
+    height: 200px;
+
+}
+
+.vehicleControls{
+    position: absolute;
+    right:10px;
+    width:300px;
+
+}
+
+
+
+.vehicleControls a{
+    display: inline-block;
+}
+.vehiclespeedshow{
+    color:#fff;
+    background:#162c65;
+    width:200px;
+    position: relative;
+    left:25%;
+    padding:10px;
+    border-radius: 23px
+}
+#statusTab .nav-item a.active{
+    color:#00ffff!important;
+}
+
+  /*status footer */
+
+  .statusFooter{
+      position: fixed;
+      bottom: 0px;
+      z-index: -1;
+      width:100%;
+      height:18%;
+      background-color: #162c65;
+      padding:15px;
+  }
+
+  .warninglistmsg {
+      color:#fff;
+  }
+  .warninglistmsg i{
+      color:yellow;
+      margin:10px;
+  }
+
+  .no-border{
+      border:0px solid #fff!important;
+  }
+
+  .errordetails{
+
+  color:#fff;
+}
+
+
+
+/* Selecting Driving status to be monitored */
+
+.selectingstatus{
+    position: relative;
+    bottom:40px;
+    height: 70%;
+    width:100%;
+}
+
+.img-responsive{
+    width:100%;
+    height:50%;
+    margin:10px 0px;
+}
+
+.img-responsive1{
+    width:100%;
+    height:50%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity: 0.7;
+}
+
+.driving_image{
+    height: 50vh
+}
+
+.carMap_container{
+    width:100%;
+    height:100%;
+}
+.carMap_container #map{
+    height: 100%;
+}
+
+.drivingvehicle_container{
+    height: 100%!important;
+    border: 1px solid #3958a7;
+ 
+}
+.drivingvehicle_container .sec1{
+ width:100%;
+ height: 300px;
+ background-color: #2b478e;
+ overflow: scroll;
+}
+
+.drivingvehicle_container .sec2{
+    width:100%;
+    height:100%!important;
+    margin: 5px 0px;
+    padding:10px;
+    background-color: #2b478e;
+}
+
+.controllers{
+    margin-top:20px;
+}
+
+
+
+.statusfooter{
+    position: fixed;
+    height: 28%;
+    bottom:0px;
+    width:100%;
+    padding: 10px;
+    background:#a2a3a5;
+    color:#000;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+
+.statusfooter .carPar{
+    color:#000;
+}
+.statusfooter h6{
+    font-weight:700;
+}
+
+.selectedVehicelinfo1{
+    height: 20vh!important;
+    font-size: 10px;
+}
+
+.statusfooter .status-form{
+    color:#FFF;
+    background: #a2a3a5;
+    border:1px solid #8e8f91;
+}
+.selectedVehicelinfo1 .vehiclespeedshow{
+    font-size:10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.paraclass{
+    color:#fff;
+    text-align: right!important;
+    background-color: #787878;
+    border:1px solid #8e8f91;
+    border-radius:23px;
+    padding:5px 10px;
+    text-align: center;
+    width:80px;
+    font-size: 9px;
+    margin-left:-5px;
+}
+
+.selectedVehicelinfo1 .status-form{
+    background-color: #787878;
+    text-align: right;
+    padding: 5px 10px;
+
+}
+
+.footerbanner {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 30px;
+    background: #162c65;
+    padding: 2px;
+}
+
+.footerbanner p{
+    display: inline-block;
+}
+
+.footerbanner .text-left{
+    float: left;
+}
+.footerbanner .text-center{
+    margin: 0% 30%;
+}
+.footerbanner .text-right{
+    float: right;
+    margin:0px 0px 0px 20px;
+}
+.bg-dark{
+    display: inline;
+    background:#787878!important;
+}
+.bg-dark div{
+    display:inline;   
+}
+.flex-container{
+    display: flex;
+}
+.flex-container .status-form{
+    background:#787878!important;
+}
+
+.wifi-image{
+transform: rotate(90deg);
+}
+
+
+/* Path layout setting page */
+#pathTab{
+    background:#162c65;
+    width:16%;
+    left:32%;
+    text-align: center;
+    color:#fff;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    z-index: 9999;
+    /* margin: 0 auto; */
+}
+
+
+#pathTab a
+{color:#fff;}
+
+
+#pathTab .nav-item a.active{
+    color:#00ffff!important;
+}
+
+#mapform{
+    position: relative;
+    top:20px;
+    width:100%;
+    background: transparent!important;
+
+}
+
+#pathTabContentShadow{
+    background: #162c65;
+    color:#fff;
+    padding:20px 0px;
+    /* position: relative;
+    bottom:10px; */
+}
+
+
+.setupFooter .buttonlist{
+    position: relative;
+    bottom: 0px;
+    left:380px;
+    z-index: 9999;
+}
+
+.setupFooter .buttonlist a{
+border-radius: 6px;
+background-image: linear-gradient(to top, #23467f 0%, #3d6098 100%);
+}
+
+#layoutSetMap{
+    position: fixed;
+    bottom:10px;
+    width:100%;
+    height:60vh;
+    border:2px solid rgba(22, 44, 101,0.8);
+}
+#layoutSetMap .pathsetmap{
+    width:100%;
+    height:100%;
+}
+
+.mapheader{
+    padding:8px;
+    text-align: center;
+    background: #3958a7;
+    font-weight: bold;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, .19);
+}
+.topleftcurve{
+    position: absolute;
+    border-left:4px solid #ed145b;
+    border-top:4px solid #ed145b;
+    width: 115px;
+    height: 65px;
+    padding: 5px;
+    z-index: 9999;
+}
+.topleftcurve .box{
+    font-size: 0.7rem;
+    font-weight: bold;
+    position: absolute;
+    left:0;
+    top:0px;
+    width:100px;
+    height: 50px;
+    margin:10px;
+    padding:10px;
+    background:#ed145b;
+    z-index: 9999;
+    border-radius: 5px;
+}
+.bottomrightcurve{
+    font-size: 0.7rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: -10px;
+    padding:10px;
+    right: 50px;
+    border-right:4px solid #ed145b;
+    border-bottom:4px solid #ed145b;
+    width: 115px;
+    height: 65px;
+    padding: 5px;
+    z-index: 9999;
+}
+
+.bottomrightcurve .box{
+    position: absolute;
+    right:0px;
+    padding:10px;
+    bottom:0px;
+    margin:10px;
+    width:100px;
+    height: 50px;
+    background:#ed145b;
+    z-index: 9999;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* Routing page */
+
+.drivingVehicle{
+    width:100%;
+    height: 100%;
+    border:0px solid red;
+ }
+ 
+ .drivingMap{
+    width:95%;
+    height:75vh;
+ }
+
+ #routeSetting{
+     position: relative;
+     bottom:10px;
+     width:100%;
+     height: 100%;
+     margin:10px;
+ }
+ .drivgvcl{
+  position: inherit;
+ }
+ .setuppath{
+    position: relative;;
+    height:200px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+
+ }
+
+ .setuppath .table-borderless{
+position: relative;
+bottom:30px;
+ }
+ .routedetails{
+    position: inherit;
+    bottom: 480px;
+    height: 250px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+
+ }
+
+ 
+
+ .title{
+     font-weight: bold;
+     text-align: center;
+     padding:10px;
+     background: linear-gradient(#2b478e,#445d9b) ;
+     background-image: -moz-linear-gradient(#2b478e,#445d9b);
+     background-image:-o-linear-gradient(#2b478e,#445d9b);
+     background-image:-webkit-linear-gradient(#2b478e,#445d9b);
+ }
+ 
+ .table-borderless thead tr th,.table-borderless  tr th,.table-borderless  tr td{ 
+     border: none!important;
+     text-align: center;
+
+ }
+
+ .table-borderless thead{
+     background:#3958a7;
+ }
+
+
+
+.availability{
+    background: rgba(163, 185, 241, 0.7);
+    padding:4px;
+    width:20px;
+    height:10px;
+    border-radius: 50%;
+}
+
+.availability i{
+    color:#00ffff!important;
+}
+ 
+.non-availability{
+    background: rgba(163, 185, 241, 0.7);
+    padding:4px;
+    width:20px;
+    height:10px;
+    border-radius: 50%;
+}
+.non-availability i{
+    color:rgba(238, 238, 238,0.3);
+}
+
+
+.updatebtn
+{
+position: absolute;
+bottom:160px;
+right:5px;
+border-radius: 23px;
+background-image: linear-gradient(to top, #1b82ca 0%, #0f5291 21%, #0e95fd 100%);}
+
+#requestbtn{
+    position: relative;
+    bottom:40px;
+    left:75%;
+}
+
+
+
+
+
+/* select button */
+.customselect{
+    width:73px;
+    padding:5px;
+    border-radius: 23px;
+    background:#2b478e;
+    color:#fff;
+}
+
+.customselect select {
+    background:transparent!important;
+    border: none;
+    outline: none;
+    color:#fff;
+}
+.customselect select option{
+    background:#2b478e;
+    color:#fff;
+    width:73px;
+    padding:5px;
+}
+
+
+
+#style-4::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(43, 71, 142,0.4);
+	background-color: transparent!important;
+}
+
+#style-4::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #2b478e;
+}
+
+#style-4::-webkit-scrollbar-thumb
+{
+	background-color: rgb(43, 71, 142);
+	border: 2px solid #2b478e;
+}
+
+
+
+/* Vehicle Status page */
+
+.vehiclelisttable{
+    width:100%;
+    height:100%;
+    padding:25px;
+    background:#2b478e;
+}
+
+
+
+
+
+
+#vehicle{
+    position: relative;
+    bottom: 30px;
+    width:100%;
+    height:90vh!important;
+}
+#vehiclestatusTab{
+    background:#162c65;
+    width:23.5%;
+    left:38%;
+    color:#fff;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    z-index:9999;
+
+}
+#vehiclestatusTab .nav-item .nav-link{
+    color:#fff!important;
+}
+#vehiclestatusTab .nav-item a.active{
+    color:#00ffff!important;
+}
+
+#myClassicTabContentShadow2{
+    background: transparent !important;
+    color: #fff;
+    box-shadow: none;
+    padding: 10px;
+    height:100%;
+    z-index:0;
+    position: relative;
+}
+
+
+.conainer1 {
+    width: 100%;
+    height:100%;
+    padding:20px;
+    border: 0px solid #3958a7;
+    background-color: #154aa2;
+}
+
+.container .section1{
+    position: absolute;
+    top:20%;
+    left:0%;
+    width:100%;
+
+
+}
+
+
+
+.container .form-group .form-control{
+    color:#fff;
+    text-align: center;
+
+}
+
+.conainer2 {
+    margin:0px 0px 4px;
+    padding: 5px;
+    width: 100%;
+    height:100%;
+    border: 0px solid #3958a7;
+    background-color: #170b86;
+}
+
+
+.container3 {
+    margin:0px 0px 2px;
+    padding: 5px;
+    width: 100%;
+    height:100%;
+    border: 0px solid #3958a7;
+    background-color: #4832a9;
+}
+.container4 {
+    margin:0px 0px 4px;
+    padding: 45px;
+    width: 100%;
+    height:100%;
+    border: 0px solid #3958a7;
+    background-color: #0b6391;
+}
+
+.container5{
+    margin:0px 0px 4px;
+    padding: 15px;
+    width: 100%;
+    height:100%;
+    border: 0px solid red;
+    background-color: #0b6391;
+}
+
+#liveVideorecord{
+    position: relative;
+    bottom:0px;
+    width:100%;
+    height: 78vh;
+    background:rgb(15, 15, 15);
+    border:1px solid rgb(15, 15, 15);
+}
+
+
+
+.topleft .form-control,.topright .form-control,.bottomleft .form-control,.bottomright .form-control{
+    background: #034a8b;
+    border:1px solid #0f5291;
+    width:100px;
+    border-radius: 25px;
+    color:#fff;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 14px;
+}
+.topleft{
+    position: absolute;
+    bottom:80%;
+    left:30%;
+}
+
+.topright{
+    position: absolute;
+    bottom:80%;
+    left:65%;
+}
+
+.vehicleno{
+    position: absolute;
+    top: 10px;
+    background: #162c65;
+    padding:12px 20px!important;
+    border-radius: 23px;
+}
+
+.bottomleft{
+    position: absolute;
+    bottom: 2%;
+    left:30%;
+}
+.bottomright{
+    position: absolute;
+    bottom:2%;
+    left:65%;
+}
+
+.btrimage{
+    margin-top:40%;
+    margin-left:40%;    
+}
+
+
+.btryellow{
+    margin-left: 25%;
+    margin-top:10%;
+
+}
+
+.meterimg{
+    margin-left: 15%;
+    margin-top:10%;
+
+}
+
+.metergaze{
+    margin-top:40%;
+}
+
+
+/* Daignostic page */
+
+.daignostictable{
+    width:100%;
+    margin: 5px;
+}
+
+
+
+/* History Inquiry */
+
+#historystatusTab{
+    background:#162c65;
+    width:23%;
+    left:60%;
+    color:#fff;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    
+
+}
+
+#historystatusTab .nav-item .nav-link{
+    color:#fff;
+}
+
+#historystatusTab .nav-item a.active{
+    color:#00ffff!important;
+}
+
+.viewdetails{
+    position: relative;
+     top:60px;
+}
+
+.btnview{
+    background-image: linear-gradient(to top, #1b82ca 0%, #0f5291 21%, #0e95fd 100%);
+    border-radius: 23px;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+.onclickcontainer{
+    display: none;
+    position: relative;
+    bottom:20px;
+}
+#historyForm{
+    margin: 0px!important;
+}
+
+.valueholder{
+    margin:1px;
+    background:#162c65;
+    display: block;
+    border-radius: 23px;
+    text-align: center;
+}
+.valuetitle{
+    margin: 0.5px;
+    display: block;
+}
+
+
+
+
+.progressContainer{
+    width:100%;
+    height:120px;
+    background:#d0d1d3;
+}
+
+.section2
+{
+    position: relative;
+    bottom:60px;
+    width: 100%;
+    height:75vh;
+}
+.self-diagnosticstatuts{
+    width:100%;
+    height:120px;
+    border: 1px solid #3958a7;
+    background-color: #2b478e;
+}
+
+.normalindicator{
+position: relative;
+top:10px;
+left:20%;
+margin:0px;
+padding:3px;    
+width: 3px;
+border-radius: 50%;
+background-image: linear-gradient(21deg, #22f2ff 0%, #b8f542 100%);
+}
+
+.conainer1 .form-group,.conainer2 .form-group,.container3 .form-group,.container4 .form-group
+.container5 .form-group{
+    text-align: center;}
+
+
+
+
+.carContainer{
+    position: relative;
+    top:25%;
+    left:20%;
+}
+
+.drivinghistorycontainer{
+    background-image: url("/img/shapes/Rounded_Rectangle_3_copy_7.png")no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+/* title */
+.heading{
+    margin:0 30%!important;
+}
+/* logo set in signin page */
+.brnadLogo{
+    width:120px;
+    margin: 0 auto;
+    
+}
+
+.text-primary{
+    margin:20px;
+    font-weight: bold;
+}
+
+.text-capitalize{
+    text-transform:uppercase;
+}
+
+
+
+
+.meterimg{
+    width: 100px;
+}
+
+/* start alert */
+
+.start_alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+
+.start_alert .cover {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.car_modal {
+    position: absolute;
+    z-index: 10;
+}
+
+.m_header {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    color: #d8d8d8;
+    text-align: center;
+}
+
+.m_header .m_close {
+    display: block;
+    position: absolute;
+    top: 22px;
+    right: 21px;
+    width: 23px;
+    height: 23px;
+    border: none;
+    outline: none;
+}
+
+.m_body {
+    padding: 20px;
+}
+
+.m_footer {
+    padding: 10px 20px 20px;
+    text-align: center;
+}
+
+.car_alert {
+    display: none;
+    top: 50%;
+    left: 50%;
+    margin-top: -190px;
+    margin-left: -189px;
+    width: 378px;
+    border-radius: 5px;
+    background: #000;
+    z-index: 20;
+}
+
+.car_alert .m_header {
+    border-bottom: 1px solid #1c2730;
+}
+
+.car_alert .m_body {
+    font-size: 16px;
+}
+
+.car_alert.car_alert2 {
+    width: 350px;
+    margin-top: -190px;
+}
+
+.car_alert.car_alert2 .m_body {
+    overflow: hidden;
+}
+
+.car_alert.car_alert2 .m_body>div {
+    float: left;
+}
+
+.car_alert.car_alert2 .m_body .alert_info_img {
+    padding-left: 15px;
+}
+
+.car_alert.car_alert2 .m_body .alert_info_img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.car_alert.car_alert2 .m_body .alert_info_txt {
+    padding: 0px 5px 0 30px;
+    text-align: left;
+    color: #FFF;
+}
+.alert_info_txt p{
+    color:#fff!important;
+}
+
+.car_alert.car_alert2 .m_body .alert_info_txt ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.car_alert.car_alert2 .m_body .alert_info_txt ul li strong {
+    display: inline-block;
+    margin-bottom: 7px;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: normal;
+}
+
+
+
+
+
+/* media Queries for large screen */
+
+@media screen and (min-width: 1900px) {
+    html, body {
+        margin: 0px;
+        padding: 0px;
+        font-size:17px;
+        font-family: 'Open Sans', sans-serif;
+        background: #162c65;
+        box-sizing: border-box;
+    
+    }
+
+    .modal-content{
+        width:800px;
+    }
+    .modal-body .google-screen{
+        
+    }
+
+
+    .selectedVehicelinfo1{
+        height: 20vh!important;
+        font-size:18px;
+    }
+    .selectedVehicelinfo1 .vehiclespeedshow{
+        font-size:18px!important;
+        padding: 10px!important;
+        text-align: center!important;
+    }
+    
+    
+    .vehiclespeedshow{
+        color:#fff;
+        background:#162c65;
+        width:75%;
+        position: relative;
+        left:25%;
+        padding:10px;
+        border-radius: 23px
+    }
+
+    /* Generel style */
+
+    #titlebar {
+        width: 100%;
+        height: 57px;
+        background-image: url(../img/shapes/titlebarbg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .classic-tabs{
+        margin: 10px;
+    }
+
+    .vline {
+        position: relative;
+        top: 14px;
+        border-left: 2px solid #ffffff;
+        height: 15px;
+        z-index: 1;
+    }
+    
+/* Stuatus Setting page */
+
+.vehicleControls{
+    position: absolute;
+    right:20px!important;
+    width:450px;
+    margin:30px 10px;
+}
+
+.startBtn{
+    font-size: 2rem!important;
+    padding:10px 40px!important;
+}
+
+.endBtn{
+    font-size: 2rem!important;
+    padding:10px 40px!important;
+}
+.img-responsive{
+    width:100%;
+    height:50%;
+    margin:10px 0px;
+}
+
+.drivingvehicle_container .sec2{
+    width:100%;
+    height:100%!important;
+    margin: 5px 0px;
+    padding:10px;
+    background-color: #2b478e;
+}
+
+
+/* PATH PAGE */
+
+#pathForm
+{
+    position: relative;
+    top:40px;
+}
+.setuppath {
+    position: relative;
+    height: 225px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #2b478e;
+}
+
+.routedetails {
+    position: inherit;
+    bottom: 480px;
+    height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border:2px solid #2b478e;
+}
+#statusTab{
+    background:#162c65;
+    margin-top: 10px;
+    width:35%;
+    color:#fff;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    left:14%;
+    z-index: 9999!important;
+}
+#pathTab {
+    background: #162c65;
+    width: 16%;
+    left: 32%;
+    text-align: center;
+    color: #fff;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    z-index: 9999;
+    margin-top:10px;
+}
+#vehiclestatusTab {
+    background: #162c65;
+    width: 23.5%;
+    left: 38%;
+    margin-top: 10px;
+    color: #fff;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: 9999;
+}
+.title{
+    font-weight: bold;
+    text-align: center;
+    padding:10px;
+    background: linear-gradient(#2b478e,#445d9b) ;
+    background-image: -moz-linear-gradient(#2b478e,#445d9b);
+    background-image:-o-linear-gradient(#2b478e,#445d9b);
+    background-image:-webkit-linear-gradient(#2b478e,#445d9b);
+}
+.statusfooter .status-form{
+    margin:10px 0px;
+}
+
+
+
+
+}

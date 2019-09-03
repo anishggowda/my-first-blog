@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example of Auto Loading Bootstrap Modal on Page Load</title>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+  
+  <link rel="stylesheet" href="//cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css">
+  <script type="text/javascript" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+
+<link href="sitemapstyler/sitemapstyler.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="sitemapstyler/sitemapstyler.js"></script>
+
+<script type="text/javascript">
+  var BUCKET_URL = 'http://recordaudiostream.s3-us-west-2.amazonaws.com';
+  var S3BL_IGNORE_PATH = true;
+</script>
+<script src="list.js"></script>
+<style type="text/css">
+  
+
+
+  #ko {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 30px;
+
+}
+
+#ko li {
+    float: left;
+}
+
+#ko li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 7px;
+    text-decoration: none;
+}
+
+#ko li a:hover {
+    background-color: #111;
+}
+#container1{
+  margin:0 ;
+  width:300px;
+  color:red;
+  padding-bottom:20px;
+}
+#content1{margin:0 20px;}
+#sitemap{
+
+  color:red;
+}
+.modal-body123{
+
+
+    max-height: 300px!important;
+    overflow-y: scroll!important;
+
+
+}
+#listing a{
+
+color:black;
+
+line-height:20px!important;
+margin:50px;
+
+}
+
+</style>
+<script>
+  function fun1(){
+
+document.getElementById("kp").src="http://google.com"
+
+
+  }
+</script>
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+<div class="container" >
+  <h2>Modal Example</h2>
+  <!-- Button to Open the Modal -->
+  <button  data-toggle="modal" data-target="#myModal">clik</button>
+    
+
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">modal</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <table>
+<ul id="ko">
+  <li><a href="#">Audio Archive</a></li>
+  <div style="float:right">
+  <li><a href="#news">-</a></li>
+  <li><a href="#contact">/</a></li>
+  <li><a href="#about">x</a></li>
+</div>
+</ul>
+
+<div>
+  <br>
+  <iframe  width="450px" height="200px" src="http://largecalls.com/s3-bucket-listing-gh-pages/test/index-non-s3.html?prefix=content/124926725/">1234</iframe>
+  
+</div>
+  </table>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button onclick="document.getElementById('')">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+</body>
+</html>                            

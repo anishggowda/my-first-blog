@@ -1,0 +1,4 @@
+body,html{margin:0;padding:0;box-sizing:border-box}
+#titlebar{width:100%;background:#e0e0e0;display:inline-block}
+#titlebar .navbar-brand{color:#000;padding:10px 20px}
+ul.navbar-nav .nav-item{color:red!important}

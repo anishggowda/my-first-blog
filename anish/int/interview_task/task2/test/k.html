@@ -1,0 +1,35 @@
+<head>
+  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.347.0.min.js"></script>
+</head>
+
+
+<script>
+var AwsS3 = require ('aws-sdk/clients/s3');
+const s3 = new AwsS3 ({
+  accessKeyId: 'AKIAIM2JP7S6FEF6M4HA',
+  secretAccessKey: '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',
+  region: 'us-west-2',
+});
+
+const listDirectories = params => {
+  return new Promise ((resolve, reject) => {
+    const s3params = {
+      Bucket: 'recordaudiostream',
+      MaxKeys: 20,
+      Delimiter: '/',
+    Prefix: 'content/124926725'
+    };
+    s3.listObjectsV2 (s3params, (err, data) => {
+      if (err) {
+        reject (err);
+      }
+      resolve (data);
+    });
+  });
+};
+</script>
+<body>
+  <div></div>
+
+
+</body>

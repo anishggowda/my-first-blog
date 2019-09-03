@@ -1,0 +1,633 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" class=" -webkit-">
+
+<head>
+
+<meta name="description" content="LTE">
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nunito">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="assets/logo_green.png" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<style media="screen,projection,print,handheld,tv">/*----------------------------------Reset-------------------------------------*/
+html,body,div,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+
+}</style>
+
+<style media="screen,projection,print,handheld,tv">
+
+/*----------------------------1-General Tags----------------------------------*/
+@media only screen and (min-width: 200px) {
+div, span,h3,h4,{
+font-family:Arial black;
+}
+.wrapper {
+	width: 1250px;
+	margin: 0 auto;
+}
+.header{
+	background-image: url('DVD_rental_version/DVD_Rental/header_img.png');
+	background-size: 100% 400px;
+	background-repeat: no-repeat;
+	height:400px;
+	}
+#navigation {
+height: 35px;
+border-width: 0 1px;
+overflow: hidden;
+text-decoration: none;
+font-family: Nunito ;
+}
+#navigation li {
+float: left;
+height: 35px;
+list-style-type:none;
+margin-left:0.4%;
+font-family: Nunito ;
+}
+#navigation li a {
+line-height: 35px;
+display: block;
+float: left;
+padding: 0 9px;
+text-decoration: none;
+font-family: Nunito;
+font-weight: bold;
+color: rgb(255,255,255);
+}
+.header ul{
+padding-top:1%;
+padding-left: 9%;
+}
+
+.about h2{
+font-size: 16px;
+color: rgb(255,255,255);
+font-family: Nunito;
+width:570px;
+line-height: 1.4;
+}
+.about div{
+font-size: 14px;
+color:#b9b9b9;
+font-family: Nunito;
+width:570px;
+line-height: 1.4;
+margin-top:2%;
+}
+
+
+
+
+.boxheader div{
+font-size: 16px;
+color:black;
+font-family: Nunito;
+}
+.boxheader{
+background-color:white;
+height: 150px;
+width:200px;
+position:relative;
+box-shadow: 0 0 10px rgba(37,37,37,0.15);
+z-index:10;
+text-align:center;
+padding-top:29px;
+margin-left:0px;
+}
+#bg_col{
+height:419px;
+width:100%;
+}	
+#h_line { 
+height:1px;
+width:80px;
+background:#888585; 
+}	
+#h_line2 { 
+height:1px;
+width:80px;
+background:#888585; 
+}
+.bg_right_img{
+float:left;
+height:419px;
+width:57.5%;
+background-image: url("bg1.png");
+background-size:100%; 4190px ;
+background-repeat: no-repeat;
+}
+	
+.service1 {
+background-color:#5bd06f;
+width: 290px;
+height: 135px;
+color:#fafafa;
+}	
+.service2 {
+background-color:#313131;
+width: 290px;
+height: 135px;
+color:#fafafa;
+margin-left:2%
+}
+.service3 {
+background-color:#5bd06f;
+width: 290px;
+height: 135px;
+margin-left:2%;
+color:#fafafa;
+}
+#h_lineCard{
+margin-left:14%;
+background-color:#ffffff;
+width:74%;
+height:2px;
+margin-top:-25px;
+}
+#back ul li{
+list-style-type:none;
+display: flex;
+padding:20px;
+
+
+} 
+#back ul #mp{
+width:150px;
+height:150px;
+
+} 
+#dvd{
+width:50%;
+height:300px;
+background-image: url('bg2.png');
+background-size: 100% 100% ;background-repeat:no-repeat;
+float:right;
+
+}
+.backgroundSession1{
+width:40%;
+
+height:300px;
+float:left;
+}
+.backgroundSession2	{
+width:59.6%;
+float:left;
+height:300px;
+background-image: url("bg1.png");
+background-size: 100% 400px;
+background-repeat: no-repeat;
+}
+
+.homeImgChanges {
+	list-style: none;
+	float:left;
+}
+.homeImgChanges li a{
+	text-decoration: none;
+	padding: 0;
+	padding: 10px;
+	color: green;
+}
+.homeImgChanges li{
+	display: inline;
+	}
+table {
+    border-collapse: collapse;
+	}
+
+table, td, th {
+    border: 1px solid black;
+	}
+.places {
+	list-style: none;
+	float:left;
+}
+.places li a{
+	text-decoration: none;
+	padding: 0;
+	padding: 10px;
+	color: green;
+}
+.places li{
+	display: inline;
+	}
+#apartmentList ul li{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	}
+#apartmentList ul li{
+color:#707070;
+}
+#apartmentList li:before {
+   content: "•";
+   font-size: 150%; /* or whatever */
+   color:green;
+	}
+#apartment{
+	background-image: url("head.png");
+	background-size: 100% 350px;
+	background-repeat: no-repeat;
+	width:85%;
+	height:350px;
+	margin-top:2%;
+	}	
+#apartmentBg_img{
+	background-image: url("DVD_rental_version/DVD_Rental/steps.png");
+	background-size: 100% 150px;
+	background-repeat: no-repeat;
+	width:100%;
+	height:150px;
+}
+#apartmentBg_img1{
+	background-image: url("bg_img_2.png");
+	background-size: 100% 650px;
+	background-repeat: no-repeat;
+	width:50%;
+	}
+#stepsReserve div{
+	margin-left:4%;
+	padding-top:2%;
+	
+	}
+#stepsReserve img{
+	margin-left:28%;
+	margin-top:7%;
+	}
+.footer{
+	width:auto;
+	height: 100px;
+	background-color: #363636; 
+	box-shadow: 0 0 10pxrgba(37,37,37,0.15);
+	display:flex;
+	padding-left:17%;
+	padding-top:1%;
+	height:100px;
+	}
+}
+
+
+</style>
+
+<body>
+<div class="wrapper">
+<div class="header">
+<div>
+<ul id="navigation">
+<li style="width: 422px;height: 19px;font-size: 24px;line-height: 31px;color: rgb(255,255,255);font-family:;font-weight: bold">
+<a href="Home.html">DVD RENTAL</a>
+</li>
+
+<li style="font-size: 16px;line-height: 24px;color: rgb(93,208,115);font-family: Nunito">
+<a href="Home.html" style="color: rgb(93,208,115);text-decoration: none;font-family: Nunito">Home</a>
+</li>
+<li style="font-size: 16px;line-height: 24px;color: rgb(255,255,255);font-family: Nunito">
+<a href="#">DVD Rental</a>
+</li>
+<li style="font-size: 16px;line-height: 24px;color: rgb(255,255,255);font-family: Nunito">
+<a href="#">Smart Package Delivery</a>
+</li>
+<li style="font-size: 16px;line-height: 24px;color: rgb(255,255,255);font-family: Nunito ">
+<a href="#">About</a>
+</li>
+<li style="font-size: 16px;line-height: 24px;color: rgb(255,255,255);font-family: Nunito;width: 165px;height: 40px;box-shadow: 0 0 40px rgba(37,37,37,0.45);background-color: #5dcf73;">
+<a href="#">CONTACT US</a>
+</li>
+</ul>
+</div>
+<div class="about1" style="margin-left:180px;padding-top:40px;font-family: Nunito;color:white">
+<img src="DVD_rental_version/DVD_Rental/arrow_back.png" width="20px"><span style="margin-left: 25px">Home/<b>DVD RENTAL</b></span></div>
+<div style="width:600px;height:auto">
+<div style="margin-top:30px;font-family: 'Nunito'" class="about">
+<h2 style="padding-left:30%;">WHO IT WORKS</h2>
+<div id="h_line" style="margin-left:30%;"></div>
+<div style="padding-left:30%;font-size:16px;font-family:Nunito;">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed<br> 
+tempor incididunt ut labore et dolore magna aliqua. Ut enim<br> 
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea,<br> 
+</div>
+<div style="display:flex;margin-left:160px;position:absolute;padding-top:20px">
+<div style="background-color:white;width:170px;height:180px;border-color:1px solid red;	box-shadow: 0 0 10px rgba(37,37,37,0.15);margin-left:180px;position:absolute
+"><span style="margin-left:68px;line-height:-10px;"><img style="padding-top:10px" src="DVD_rental_version/DVD_Rental/numerous_icon.png"><br><h4 style="color:black;font-weight:bold;margin-left:50px">Numerous</h4><p style="margin-left:20px">Lorem ipsum dolor sit<br> 
+amet, consectetur<br>
+adipisicing elit, sed </p></span></div>
+<div style="background-color:white;width:170px;height:180px;border-color:1px solid red;	box-shadow: 0 0 10px rgba(37,37,37,0.15);margin-left:360px;position:absolute;
+"><span style="margin-left:68px;line-height:-10px;">
+<img style="padding-top:10px" src="DVD_rental_version/DVD_Rental/geninue_icon.png"><br><h4 style="color:black;font-weight:bold;margin-left:60px">Geninue</h4><p style="margin-left:20px">Lorem ipsum dolor sit<br> 
+amet, consectetur<br>
+adipisicing elit, sed </p></span></div>
+<div style="background-color:white;width:170px;height:180px;border-color:1px solid red;	box-shadow: 0 0 10px rgba(37,37,37,0.15);margin-left:540px;position:absolute;
+"><span style="margin-left:68px;line-height:-10px;">
+<img style="padding-top:10px" src="DVD_rental_version/DVD_Rental/blueray_icon.png"><br><h4 style="color:black;font-weight:bold;margin-left:50px">Blue Ray/HD</h4><p style="margin-left:20px">Lorem ipsum dolor sit<br> 
+amet, consectetur<br>
+adipisicing elit, sed </p></span></div>
+<div style="background-color:white;width:170px;height:180px;border-color:1px solid red;	box-shadow: 0 0 10px rgba(37,37,37,0.15);margin-left:720px;position:absolute;
+"><span style="margin-left:68px;line-height:-10px;">
+<img style="padding-top:10px" src="DVD_rental_version/DVD_Rental/price_icon.png"><br><h4 style="color:black;font-weight:bold;margin-left:50px">Lower Price</h4><p style="margin-left:20px">Lorem ipsum dolor sit<br> 
+amet, consectetur<br>
+adipisicing elit, sed </p></span></div>
+<div style="background-color:white;width:170px;height:180px;border-color:1px solid red;
+	box-shadow: 0 0 10px rgba(37,37,37,0.15);margin-left:0px;position:absolute
+"><span style="margin-left:68px;line-height:-10px;">
+<img style="padding-top:10px" src="DVD_rental_version/DVD_Rental/release_icon.png"><br><h4 style="color:black;font-weight:bold;margin-left:40px">New Release</h4><p style="margin-left:20px">Lorem ipsum Dolar site<br> 
+amet, consectetur<br>
+adipisicing elit, sed </p></span>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+	
+<div style="width:100%;height:300px">
+	
+<div class="backgroundSession1"></div>
+
+<div class="backgroundSession2"></div>
+<div class="bannerImage0" style="z-index:30;position:absolute;margin-left:20%;width:740px;height:200px;margin-top:10%">
+
+<div style="font-family: Nunito;font-family:Nunito;color: black;height:50px">
+	
+			
+	<div style="height:50px">
+	<div style="float:left;padding-top:2%">
+	<h4>
+    OUR ROBOTIC RENTAL KIOSK
+	</h4>
+	<div id="h_line">
+	</div>
+	</div>
+	<div>
+	<ul class="homeImgChanges">
+			<li><a href="Home.html" class="" id="normalImage">DVD RENTAL</a></li>|
+			<li><a href="HomeSmartPakage.html" id="deliverdImg" id="packageDelivery"> SMART Package DELIVERY</a></li>
+	</ul>
+	</div>
+	</div>		
+</div>	
+	
+<div id="description" style="font-size:16px;padding:2% 2%;color:#6e6f6e">
+We strive to provide a more convenient and economical way for everyone to enjoy entertainment as well as <br>receive packages by offering an
+integrated system which provides a turnkey solution in automated package <br>delivery and convenient management of entertainment
+media contents.
+</div> 
+
+</div>
+</div>
+
+<div style="width:100%;height:260px;background-color:#f9f9f9;">
+<div style="display:flex;width:73%;margin-left:12%;vertical-align:top">
+<div style="width:30%;height:auto;"><img src="about/img_about_page/device_1.png" style="width:100px;height:200px;position:absolute;
+margin-left:150px"></div>
+<div style="width:40%;height:auto;padding:2% 2%;font-size:17px">
+<table style="height:200px;width:300px">
+<tr>
+<td>
+<span style="color:#69d37b">Capacity</span>
+</td>
+<td>
+&nbsp;498 disks
+</td>
+</tr>
+<tr>
+<td>
+<span style="color:#69d37b">Size
+</td>
+<td>
+&nbsp;670x660x140mm(
+26.4x26x55.1 &nbsp; in)
+Footprint(fc):4.3
+</td>
+</tr>
+<tr>
+<td>
+<span style="color:#69d37b">Weight
+</td>
+<td>
+&nbsp;160kgs(350lbs)
+</td>
+</tr>
+<tr>
+<td>
+<span style="color:#69d37b">Screen
+</td>
+<td>
+&nbsp;17" infrared touch
+</td>
+</tr>
+<tr>
+<td>
+<span style="color:#69d37b">Case
+</td>
+<td>
+&nbsp;Slim
+</td>
+</tr>
+</table>
+
+</div>
+<div style="width:25%;height:220px;padding-top:3%;">
+<span style="font-size:14px;color:#717171">Pickup and return at any kiosk 
+RFIDs Sensor, and fully automatic robotic 
+arm, easy to rent, pickup and return. <br><br>
+Auto-dispensing, real time monitoring, 
+inventory display and content 
+management, Kiosk management service 
+through cloud. <br><br> 
+Easy through mobile App to rent movies 
+and make payment. All can be done on 
+cell phone. 
+
+</span>
+</div>
+</div>	
+</div>
+<div style="height:auto;padding-left:13%">
+		<div style="width:85%;height:50px;">
+			<ul class="places">
+				<li><a href="Home.html" class="" id="normalImage">APARTMENT BUILDING</a></li>|
+				<li><a href="HomeSmartPakage.html" id="deliverdImg" id="packageDelivery"> 
+				OFFICE BUILDING</a></li>|
+				<li><a href="Home.html" class="" id="normalImage">SCHOOL CAMPUS</a></li>|
+				<li><a href="HomeSmartPakage.html" id="deliverdImg" id="packageDelivery">GROCERY STORE 
+				</a></li>
+				<li><a href="HomeSmartPakage.html" id="deliverdImg" id="packageDelivery">
+				HOTEL INDUSTRY
+				</a></li>
+			</ul>
+		</div>
+		<div>
+		<h3>APARTMENT BUILDING</h3>
+		</div><br>
+		<div id="h_line"></div>
+		<diV><img src="DVD_rental_version/DVD_Rental/apartment_building.png"</div>
+		<div style="width:85%;padding-top:2%">
+		<h3>Lorem Ipsum is simply dummy text of the printing and typesetting </h3>
+		<div id="apartmentList">
+		<ul>
+		<li> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 	magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+		</li>
+		<li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+		</li>
+		<li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae 
+ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+		</li>
+		<li>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia conseq uuntur magni dolores eos qui ratione 
+		</li>
+		<li>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit 
+		</li>
+		<li>Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+		</li>
+		</ul>
+		</div>
+		</div>
+</div>
+</div>
+<div style="width:100%">
+<div style="z-index:100;position:absolute">
+<div style="display:flex;margin-left:5%;margin-top:5%" id="stepsReserve">
+<div style="width:170px;height:180px;background-color:white;color:black;box-shadow: 0 0 10px rgba(37,37,37,0.15);">
+ <span style="">&nbsp1</span> Step:<div style="text-align:center;height:70px;color:#a0a0a0;margin-top:7%">Reserve by Website 
+or Smaptphone APP 
+Get a Pickup code 
+and Scan QR Code </div>
+<img src="DVD_rental_version/DVD_Rental/app_icon.png"></div>
+<div style="width:170px;height:180px;background-color:white;color:black;box-shadow: 0 0 10px rgba(37,37,37,0.15);">
+&nbsp;2</span> Step:<div style="text-align:center;height:70px;color:#a0a0a0;margin-top:7%">Rent DVD/BD From 
+Rental Machine 
+Input Pickup code or 
+Scan QR Code </div><img src="DVD_rental_version/DVD_Rental/kiosk_icon.png"></div>
+<div style="width:170px;height:180px;background-color:white;color:black;box-shadow: 0 0 10px rgba(37,37,37,0.15);">
+&nbsp;3 Step: <div style="text-align:center;height:70px;color:#a0a0a0;margin-top:10%">Watch Movies 
+in your apartments
+</div>
+
+<img src="DVD_rental_version/DVD_Rental/tv_icon.png"></div>
+<div style="width:170px;height:180px;background-color:white;color:black;box-shadow: 0 0 10px rgba(37,37,37,0.15);">
+&nbsp;4</span> Step: <div style="text-align:center;height:70px;color:#a0a0a0;margin-top:10%">Return DVD/BD to Rental kiosk </div>
+<img src="DVD_rental_version/DVD_Rental/kiosk_icon.png"></div>
+<div style="width:170px;height:180px;background-color:white;color:black;box-shadow: 0 0 10px rgba(37,37,37,0.15);">
+&nbsp;5</span> Step: <div style="text-align:center;height:70px;color:#a0a0a0;margin-top:10%">Verify Return on 
+Website or 
+Smartphone APP</div>
+<img src="DVD_rental_version/DVD_Rental/kiosk_icon.png"></div>
+</div>
+<h4 style="margin-left:20%;margin-top:2%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </h4>
+<div style="margin-left:20%;display:flex;width:80%;color:#9b9b9b" id="text">
+<div style="width:40%">
+Lorem ipsum dolor sit amet/ consectetur adipisicing elit, sed do 
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+enim ad minim veniam, quis nostrud exercitation ullamco 
+</div>
+<div style="width:40%;padding-left:5%">
+Lorem ipsum dolor sit amet/ consectetur adipisicing elit, sed do 
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+</div>
+</div>
+</div>
+
+<div id="apartmentBg_img"></div>
+<div id="apartmentBg_img1" style="height:300px;float:left"></div>
+<div style="width:50%;height:300px;background-color:white;float:left"></div>
+
+
+
+</div>
+<div class="footer">
+	<image src="gray-box.png" style="width:50px;height:50px;border-radius:50%;margin-left:2.3%;margin-top:1%"> 
+	<div style="display:flex;margin-left:2.3%">
+		<ul style="list-style-type:none;padding:10px;">
+			<li style="color:white;font-family: Nunito">How it Works</li>
+			<li style="color:white;font-family: Nunito">DVD Rental</li>
+			<li style="color:white;font-family: Nunito">Smart Package Deliver</li>
+		</ul>
+	</div>
+
+  <div style="display:flex">
+  <ul style="padding:10px;list-style-type:none"><li style="color:white;font-family: Nunito">
+    Benifits
+  </li>
+  <li style="color:white;font-family: Nunito">
+    DVD Rental
+  </li>
+  <li style="color:white;font-family: Nunito">
+    Smart package Delivery
+  </li>
+  </ul >
+
+   <div>
+  <ul style="padding:10px;list-style-type:none"><li style="color:white;font-family: Nunito">
+    About
+  </li>
+  <li style="color:white;font-family: Nunito">
+    dvd.rental@24example.com
+  </li>
+  <li style="color:white;font-family: Nunito">
+    (924)-703-1389
+  </li>
+  </ul>
+  </div>
+ <div>
+  <ul style="list-style-type:none">
+  <li style="float:left">
+    <img src="rss.png" width="30px">
+  </li>
+  <li style="float:left;margin-left:20px">
+        <img src="linkedin.png" width="30px">
+
+  </li>
+  <li style="float:left;margin-left:20px">
+        <img src="fb.png" width="30px">
+
+  </li>
+  <li style="float:left;margin-left:20px">
+        <img src="twitter.png" width="30px">
+
+  </li><br><br>
+  <button class="btn btn-success" style="font-family:Nunito;box-shadow: 0 0 10px rgba(37,37,37,0.15);
+  background-color: #5dcf73;width:180px">CONTACT US</button>
+</li>
+  </ul>
+  </div>
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
